@@ -2,39 +2,62 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://tidalhss-star.github.io/bp-t3b04-yn-room-top5/</loc>
-    <lastmod>2026-05-24</lastmod>
+    <lastmod>2026-06-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>https://tidalhss-star.github.io/bp-t3b04-yn-room-top5/posts/normal-1.html</loc>
-    <lastmod>2026-05-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://tidalhss-star.github.io/bp-t3b04-yn-room-top5/posts/normal-2.html</loc>
-    <lastmod>2026-05-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://tidalhss-star.github.io/bp-t3b04-yn-room-top5/posts/normal-3.html</loc>
-    <lastmod>2026-05-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://tidalhss-star.github.io/bp-t3b04-yn-room-top5/posts/juice-1.html</loc>
     <lastmod>2026-05-24</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://tidalhss-star.github.io/bp-t3b04-yn-room-top5/posts/juice-2.html</loc>
     <lastmod>2026-05-24</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tidalhss-star.github.io/bp-t3b04-yn-room-top5/posts/myth-002-1nf0bem.html</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tidalhss-star.github.io/bp-t3b04-yn-room-top5/posts/normal-1.html</loc>
+    <lastmod>2026-05-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tidalhss-star.github.io/bp-t3b04-yn-room-top5/posts/normal-2.html</loc>
+    <lastmod>2026-05-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tidalhss-star.github.io/bp-t3b04-yn-room-top5/posts/normal-3.html</loc>
+    <lastmod>2026-05-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tidalhss-star.github.io/bp-t3b04-yn-room-top5/posts/review-001.html</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tidalhss-star.github.io/bp-t3b04-yn-room-top5/posts/review-002.html</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tidalhss-star.github.io/bp-t3b04-yn-room-top5/feed.xml</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
 </urlset>
