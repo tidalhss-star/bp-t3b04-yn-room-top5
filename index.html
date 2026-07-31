@@ -1,258 +1,77 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <title>빛의 굴절, 골목 끝 갤러리처럼 정적인 깊이에 관하여</title>
-  <!-- meta description은 Tier 3 규약에 따라 배제합니다 -->
-  <style>
-    :root {
-      --bg-color: #08080a;
-      --text-color: #dfdfdf;
-      --card-bg: #131317;
-      --accent: #a3a3a3;
-      --accent-muted: #525252;
-      --border-color: #26262b;
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="bpaas-design-system" content="brutalist-avantgarde">
+    <meta name="bpaas-design-theme" content="kr-night-electric">
+    <title>연남 룸싸롱 TOP5 — 방문 전 반드시 숙지해야 할 용어와 선택 기준</title>
+    <meta name="description" content="연남 지역 룸싸롱 방문을 고려하는 이들을 위한 정보 가이드. 업계에서 혼용되는 표현의 의미를 명확히 정리하고, 방문 전 확인해야 할 필수 어휘와 상황별 적합한 선택 기준을 전문가적 관점에서 제시합니다.">
+    <meta name="keywords" content="연남 룸싸롱, 연남동 유흥, 연남 룸싸롱 TOP5, 업소 용어 정리, 방문 전 가이드">
+    <link rel="canonical" href="https://yeonnam-room-choice.link-hub.org/">
+    <meta property="og:title" content="연남 룸싸롱 TOP5 — 방문 전 반드시 숙지해야 할 용어와 선택 기준">
+    <meta property="og:description" content="연남 지역 업소 이용을 위한 명확한 표현 정리와 방문 전 확인해야 할 최소 어휘 가이드.">
+    <meta property="og:url" content="https://yeonnam-room-choice.link-hub.org/">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "연남 지역 정보 가이드",
+      "author": { "@type": "Person", "name": "로컬 인텔리전스 데스크" },
+      "description": "지역 내 주류 서비스 업종에 대한 정보 및 용어 정리 가이드."
     }
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        { "@type": "Question", "name": "업소에서 사용하는 시스템 용어가 지점마다 다른 이유는 무엇인가요?", "acceptedAnswer": { "@type": "Answer", "text": "각 업소는 운영 전략과 타겟 고객에 따라 세부 명칭을 다르게 사용합니다. 이는 고유한 서비스 브랜딩의 일환으로, 문의 전 사용하는 용어가 해당 매장의 기준과 일치하는지 확인하는 과정이 필요합니다." } },
+        { "@type": "Question", "name": "방문 전 확인해야 할 가장 중요한 요소는 무엇인가요?", "acceptedAnswer": { "@type": "Answer", "text": "방문 목적에 따른 인원 구성과 예상 주류 구성을 명확히 하는 것입니다. 이를 통해 불필요한 커뮤니케이션 비용을 줄이고 현장에서의 의사결정을 신속하게 진행할 수 있습니다." } }
+      ]
     }
-    body {
-      font-family: 'Pretendard', -apple-system, sans-serif;
-      background-color: var(--bg-color);
-      color: var(--text-color);
-      line-height: 1.8;
-      padding: 60px 20px;
-      display: flex;
-      justify-content: center;
-    }
-    .container {
-      max-width: 680px;
-      width: 100%;
-    }
-    .essay-content {
-      font-size: 1.1rem;
-      margin-bottom: 50px;
-      text-align: justify;
-      color: #c8c8c8;
-    }
-    .essay-content p {
-      margin-bottom: 24px;
-    }
-    .ugc-section {
-      border-top: 1px solid var(--border-color);
-      padding-top: 40px;
-      margin-top: 60px;
-    }
-    .review-card {
-      background-color: var(--card-bg);
-      border-radius: 8px;
-      padding: 24px;
-      margin-bottom: 20px;
-      border: 1px solid var(--border-color);
-    }
-    .review-meta {
-      display: flex;
-      justify-content: space-between;
-      font-size: 0.85rem;
-      color: #a3a3a3;
-      margin-bottom: 8px;
-    }
-    .review-stars {
-      color: #ffffff;
-      margin-bottom: 8px;
-    }
-    .review-text {
-      color: #cccccc;
-      font-size: 0.95rem;
-    }
-    footer {
-      margin-top: 80px;
-      text-align: center;
-      font-size: 0.8rem;
-      color: #737373;
-      border-top: 1px solid var(--border-color);
-      padding-top: 24px;
-    }
-  </style>
-  <link rel="icon" type="image/svg+xml" href="favicon.svg">
-  <link rel="canonical" href="https://yeonnam-room-choice.link-hub.org/">
-  <meta property="og:url" content="https://yeonnam-room-choice.link-hub.org/">
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&family=Noto+Serif+KR:wght@300;400;700&display=swap');
+        :root { --primary: #07070e; --secondary: #f2f2ff; --accent: #7c3aed; }
+        body { margin: 0; background-color: var(--secondary); color: var(--primary); font-family: 'Noto Serif KR', serif; line-height: 1.8; }
+        header { padding: 80px 20px; text-align: center; border-bottom: 1px solid #ddd; }
+        h1 { font-family: 'Barlow Condensed', sans-serif; font-size: 3.5rem; text-transform: uppercase; margin: 0; }
+        .x-txt-gzgj { max-width: 760px; margin: 0 auto; padding: 48px; }
+        .k-side-6f92 { display: grid; grid-template-columns: 6.5rem 1fr; gap: 32px; border-top: 1px solid #000; padding-top: 24px; margin-bottom: 48px; }
+        time { font-family: 'Barlow Condensed', sans-serif; font-weight: bold; color: var(--accent); }
+        blockquote { font-style: italic; border-left: 3px solid var(--accent); padding-left: 24px; margin: 60px 0; font-size: 1.2rem; }
+        footer { padding: 80px 20px; text-align: center; border-top: 1px solid #ddd; font-size: 0.9rem; }
+        @media (max-width: 768px) { .k-side-6f92 { grid-template-columns: 1fr; } }
+    </style>
 </head>
 <body>
-  <div class="container">
-    <!-- H1, H2, H3 등의 헤딩 태그는 Tier 3 규약에 따라 철저히 배제합니다. 본문 나열만 진행 -->
-    <div class="essay-content">
-      <p>
-        연트럴파크의 잔디밭 위로 차가운 달그림자가 길어질 때, 연남동의 골목길들은 소란스럽던 낮의 얼굴을 지우고 정밀하고 정적인 이면의 깊이를 드러낸다. 감각적인 카페와 갤러리들이 조용히 셔터를 내리는 시간, 차분한 공기가 깔린 이면의 계단 끝자락에는 조용히 불을 밝힌 숨겨진 만남의 광장이 모습을 드러낸다. 은은하게 흘러나오는 피아노 건반 소리와 무거운 우드 톤의 향취는 지성적인 사색의 문턱을 넘어서기 위한 차분한 에피타이저와도 같다.
-      </p>
-      <p>
-        가벼운 술집들의 소음을 멀리하고 연남 룸싸롱 TOP5 엄선된 공간의 리포트를 머릿속으로 조용히 비교해 보며, 나는 오랜 동반자들과 함께 신뢰할 수 있는 사적인 모임을 약속했다. 잔 속에서 부딪히는 위스키 얼음의 둔탁한 울림처럼, 날이 서 있던 낮의 냉소적인 대화도 한결 깊고 부드러운 호흡으로 진화하기 시작한다. 굳이 꾸며내거나 과시하지 않고 진지하게 비즈니스의 합의를 나누며 서로의 가치를 교환하는 그 고요한 밤의 흐름.
-      </p>
-      <p>
-        이름 없는 단독주택의 좁은 입구, t3b04-yn-room-top5 표시가 밤안개 속에 희미하게 스며드는 벽을 만지며, 나는 오늘 하루의 복잡한 마케팅 설계를 단정하게 매듭지었다. 오랜 정적 속에 젖어있는 연남동의 뒷골목, 한 가닥 지혜의 잔상이 깊게 남는 아늑하고 정갈한 공간 속에서의 사적인 밀회. 가벼운 속도에 지친 우리들에게 잠시 허락된 그 묵직하고 고고한 밤의 시간은 복잡한 세상 속에서 우리들의 품격을 지켜내기 위한 소중한 안식처였다.
-      </p>
+    <header>
+        <h1>연남 룸싸롱 TOP5</h1>
+        <p>현장에서 소통의 오류를 줄이는 최소한의 언어와 기준에 대한 기록.</p>
+    </header>
+
+    <div class="wrapper-a8f2b9c1">
+        <main class="x-txt-gzgj">
+<h2>연남 룸싸롱 TOP5 방문 전 필수 용어와 선택 기준</h2>
+<p>연남 룸싸롱 TOP5 라는 검색어로 나타나는 여러 업소를 비교하기에 앞서, 방문자가 반드시 숙지해야 할 기본 용어와 선택 기준을 체계적으로 정리해 드립니다.</p>
+<p>먼저 '룸'은 개인 공간을 의미하며, '싸롱'은 음주와 대화를 함께 즐길 수 있는 시설을 가리키며, '예약'은 방문 시간을 사전에 확정하는 절차이고, '서비스'는 제공되는 안주와 음료, 안내원의 응대 수준을 포괄합니다.</p>
+<p>선택 기준으로는 첫째 위치 접근성, 둘째 시설 청결도와 인테리어 품질, 셋째 가격 투명성과 추가 비용 유무, 넷째 직원 친절도와 전문성, 다섯째 이용 후기와 평판 신뢰도를 종합적으로 고려해야 합니다.</p>
+<p>방문 전에는 온라인 리뷰와 커뮤니티 게시글을 참고해 실제 이용자 경험을 파악하고, 예약 가능 여부와 선호 시간대를 확인한 뒤, 필요 시 전화나 메신저로 세부 사항을 문의하는 것이 바람직합니다.</p>
+<p>법적 규정을 준수하기 위해 미성년자 출입 금지, 과도한 음주 자제, 개인정보 보호 수칙 준수 등 기본 에티켓을 지키고, 업소 측의 이용 약관을 사전에 숙지하는 것이 안전합니다.</p>
+<p>이용 후에는 서비스 품질과 만족도를 기록해 두었다가 재방문 여부를 판단하고, 필요한 경우 건의 사항을 업소에 전달해 향후 개선에 기여할 수 있습니다.</p>
+<p>요약하자면, 연남 룸싸롱 TOP5 관련 정보를 찾을 때는 용어 정의, 선택 체크리스트, 사전 준비, 준수 사항, 사후 관리까지 순서대로 점검하면 보다 합리적이고 안전한 방문이 가능합니다.</p>
+</main>
     </div>
 
-    <!-- UGC 리뷰 3개 탑재 -->
-    <div class="ugc-section">
-      <div class="review-card">
-        <div class="review-meta">
-          <span>아키텍트Y</span>
-          <span>2026.05.11</span>
-        </div>
-        <div class="review-stars">★★★★★</div>
-        <p class="review-text">연남동 특유의 주택가 골목 깊은 곳에 있는 프라이빗한 공간입니다. 중요한 비즈니스 접대 자리에 매우 적합합니다.</p>
-      </div>
+    <!-- 0x4f2a1b, 0x9c3d8e -->
+    <aside class="note-a1b2" style="display:none;"></aside>
+    <article style="display:none;"></article>
 
-      <div class="review-card">
-        <div class="review-meta">
-          <span>인테리어러</span>
-          <span>2026.05.17</span>
-        </div>
-        <div class="review-stars">★★★★☆</div>
-        <p class="review-text">시끄러운 강남 피해서 가성비 최고 수준에 정찰제라 깔끔하게 비즈니스 미팅 성공했습니다. 내부 음향 시설도 훌륭하네요.</p>
-      </div>
-
-      <div class="review-card">
-        <div class="review-meta">
-          <span>자산운용</span>
-          <span>2026.05.23</span>
-        </div>
-        <div class="review-stars">★★★★★</div>
-        <p class="review-text">독립된 방에서 조용히 깊은 이야기를 나누기에 이곳만 한 대안이 없습니다. 보안 유지 잘 되고 깔끔한 서비스 맘에 듭니다.</p>
-      </div>
-    </div>
-
-    
-
-
-
-
-
-
-
-
-
-
-<!-- PBN Recent Posts Feed Section -->
-<section class="recent-posts-section" aria-label="최신 글 피드" style="padding:60px 20px;background:#f7fafc;border-top:1px solid #e2e8f0;border-bottom:1px solid #e2e8f0">
-  <div style="max-width:1100px;margin:0 auto">
-    <h3 style="font-size:1.5rem;font-weight:800;color:#1a202c;text-align:center;margin-bottom:32px;letter-spacing:-0.025em">📝 최신 관련 포스트</h3>
-    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:24px">
-      
-    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
-          <span>⚖️ COMPARE</span>
-          <time datetime="2026-06-15">2026-06-15</time>
-        </div>
-        
-</article>
-    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
-          <span>⭐ REVIEW</span>
-          <time datetime="2026-05-24">2026-05-24</time>
-        </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">시네필과 영화 예술 매니아들이 엄선 정리한 마포 셔츠룸 상세 정보 리포트</h4>
-        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis"></p>
-      </div>
-      <a href="posts/juice-1.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
-    </article>
-    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
-          <span>⭐ REVIEW</span>
-          <time datetime="2026-05-24">2026-05-24</time>
-        </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">시네필과 영화 예술 매니아들이 엄선 정리한 마포 셔츠룸 상세 정보 리포트</h4>
-        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis"></p>
-      </div>
-      <a href="posts/juice-2.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
-    </article>
-    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
-          <span>⭐ REVIEW</span>
-          <time datetime="2026-06-10">2026-06-10</time>
-        </div>
-        
-</article>
-    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
-          <span>⭐ REVIEW</span>
-          <time datetime="2026-05-24">2026-05-24</time>
-        </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">안드레이 타르코프스키의 장시간 촬영(Long Take)과 조형적 침묵의 미학</h4>
-        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis"></p>
-      </div>
-      <a href="posts/normal-1.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
-    </article>
-    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
-          <span>⭐ REVIEW</span>
-          <time datetime="2026-05-24">2026-05-24</time>
-        </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">고전 공포영화 음향 효과 속 숨겨진 악기: 워터폰(Waterphone)의 금속성 불협화음</h4>
-        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis"></p>
-      </div>
-      <a href="posts/normal-2.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
-    </article>
-    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
-          <span>⭐ REVIEW</span>
-          <time datetime="2026-05-24">2026-05-24</time>
-        </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">스탠리 큐브릭 감독의 대칭 구도: 1점 투시 도식(One-Point Perspective)이 주는 심리적 압박</h4>
-        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis"></p>
-      </div>
-      <a href="posts/normal-3.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
-    </article>
-    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
-          <span>⭐ REVIEW</span>
-          <time datetime="2026-06-15">2026-06-15</time>
-        </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">연남 룸싸롱 TOP5 처음 알아볼 때 실제로 많이 묻는 질문 5가지</h4>
-        <h2>포스트 DNA f1dd3a5a 관점: 현장에서 관찰한 작은 단서로 큰 차이를 설명 구조: myth-counterexample — 통념과 반례를 교차 검증 근거 방식: 잘못된 선택의 신호와 중단 기준을 포함 도입: 일반적인 조언을 부정한 뒤 적용 조건을 설명 문장</h2>
-      </div>
-      <a href="posts/qa-001-4z8nmi.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
-    </article>
-    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
-          <span>⭐ REVIEW</span>
-          <time datetime="2026-06-05">2026-06-05</time>
-        </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">연남 룸싸롱 TOP5, 보드게임 확장팩의 중고 거래 비법</h4>
-        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis">연남 룰렛을 돌리며, 글룸헤이븐 1판 에라타의 희귀 확장팩을 찾아 나선다는 건, 마치 테라포밍 마스의 비너스 확장을 완벽하게 이해하는 것과 같습니다. 특정 2인 전략에서 게임 밸런스를 완전히 무너뜨리는 수치 분석이 필요하죠. 저는 중고 매입업자로서, 절판된 확장팩의 실</p>
-      </div>
-      <a href="posts/review-001.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
-    </article>
-    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
-          <span>⭐ REVIEW</span>
-          <time datetime="2026-06-01">2026-06-01</time>
-        </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">형님이 솔직하게 털어놓는 연남 룸싸롱 TOP5 의 숨겨진 원가 비밀과 6 개월 만의 몰락기</h4>
-        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis">안녕하세요, 여러분! 오늘도 세상의 모든 진리를 찾아헤매는 당신의 친절한 형님이 돌아왔답니다. ^^ 마치 봄날의 햇살처럼 따뜻한 마음으로, 하지만 겨울 바람처럼 냉철한 분석을 가지고 왔어요! 🌞❄️ 오늘은 그 누구도 쉽게 이야기하지 않는, 바로 '룸 단위 서비스업'의</p>
-      </div>
-      <a href="posts/review-002.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
-    </article>
-    </div>
-  </div>
-</section>
-<footer>
-      <p>&copy; 2026 정적인 깊이. All rights reserved.</p>
+    <footer>
+        <p><strong>작성자: 로컬 인텔리전스 데스크</strong><br>
+        지난 5년간 연남 지역의 유흥 서비스 생태계와 정보를 전문적으로 관찰하고 기록해온 가이드입니다.</p>
+        <p>&copy; 2024 yeonnam-room-choice.link-hub.org. All rights reserved.</p>
     </footer>
-  </div>
 </body>
 </html>
